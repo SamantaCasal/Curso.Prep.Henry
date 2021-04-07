@@ -55,6 +55,7 @@ describe('incrementarPorUno(arr)', function() {
 
 describe('agregarItemAlFinalDelArray(arr, item)', function() {
   it('should return the array with the item added to the end', function() {
+    console.log()
     expect(agregarItemAlFinalDelArray([10, 10, 16, 12], 10)).toEqual([10, 10, 16, 12, 10]);
     expect(agregarItemAlFinalDelArray([97, 100, 80, 55, 72, 94], 'Hola')).toEqual([97, 100, 80, 55, 72, 94, 'Hola']);
     expect(agregarItemAlFinalDelArray([], true)).toEqual([true]);
